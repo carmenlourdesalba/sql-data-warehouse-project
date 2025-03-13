@@ -44,12 +44,10 @@ The Gold Layer is the business-level data representation, structured to support 
 
 | Column Name     | Data Type     | Description                                                                                   |
 |-----------------|---------------|-----------------------------------------------------------------------------------------------|
-| order_number    | NVARCHAR(50)  | A unique alphanumeric identifier for each sales order (e.g., 'SO54496').                      |
+| order_number    | NVARCHAR(50)  | A unique alphanumeric identifier for each insurance sales  (e.g., 'SO54496').                      |
 | policy_key      | INT           | Surrogate key linking the order to the insurance policy dimension table.                               |
 | client_key      | INT           | Surrogate key linking the order to the client dimension table.                              |
-| order_date      | DATE          | The date when the order was placed.                                                           |
-| shipping_date   | DATE          | The date when the order was shipped to the customer.                                          |
-| due_date        | DATE          | The date when the order payment was due.                                                      |
-| sales_amount    | INT           | The total monetary value of the sale for the line item, in whole currency units (e.g., 25).   |
-| quantity        | INT           | The number of units of the product ordered for the line item (e.g., 1).                       |
-| price           | INT           | The price per unit of the product for the line item, in whole currency units (e.g., 25).      |
+| order_date      | DATE          | The date when the insurance order was placed.                                                           |                                         |
+| due_date        | DATE          | The date when the insurance order payment was due.                                                      |
+| sales_amount    | INT           | The total monetary value of the sale for the line item, in whole currency units (e.g., 25).   |                       |
+
